@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Sport/timer">
+<circle id="Dot" cx="34" cy="39" r="8" fill="#BCFF5E"/>
+<g id="Group">
+<circle id="Oval" cx="24" cy="26" r="16" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path" d="M25.817 16.1832C22.8945 15.6132 19.8706 16.3862 17.5802 18.2889C15.2899 20.1916 13.9755 23.0226 14.0001 26.0001" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M31.0711 18.929L26.1213 23.8788" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Oval_2" cx="24" cy="26" r="3" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_3" d="M20 4H28" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_4" d="M40.0001 10L35.3201 14.68" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_5" d="M38 8L42 12" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

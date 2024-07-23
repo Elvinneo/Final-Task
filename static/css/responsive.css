@@ -1,0 +1,606 @@
+@media only screen and (max-width:768px) {
+
+    /*-----------------------------------------------Home.CSS-----------------------------------------------------*/
+
+    #homemenudiv,
+    #othermenudiv,
+    .right {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+        color: white;
+        margin-left: 10%;
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        max-width: 768px;
+        height: 310vh;
+
+    }
+
+    .member {
+        max-width: 768px;
+
+        background: var(--Additional-Colors-Background, #F9F9FB);
+    }
+
+    nav {
+        display: flex;
+        width: 82%;
+        max-width: 768px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2.5% 1%;
+    }
+
+    .homelogo,
+    .otherlogo {
+        margin-right: 10%;
+    }
+
+
+    #login {
+        cursor: pointer;
+        display: flex;
+        padding: 12px 16px;
+    }
+
+    #signup {
+        padding: 12px 16px;
+    }
+
+    .head {
+        width: 100%;
+        margin-top: 108px;
+        display: flex;
+    }
+
+    .left {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        letter-spacing: 0.36px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .left p {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .left button {
+        margin-left: 30%;
+    }
+
+    .logos {
+        margin-top: 70px;
+    }
+
+    .logos p {
+        margin: auto;
+    }
+
+    .logos ul {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        opacity: 0.64;
+    }
+
+    .logos ul li {
+        display: flex;
+        width: 40%;
+        align-items: center;
+    }
+
+    .programs {
+        width: 100%;
+        max-width: 768px;
+        z-index: 2;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .selections {
+        width: 65%;
+        flex-wrap: wrap;
+        max-width: 873px;
+    }
+
+    .selection {
+        width: 100%;
+        display: flex;
+        padding: 24px;
+        align-items: flex-start;
+        gap: 0.5em;
+    }
+
+    #selection1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.5em;
+        background: var(--Main-Colors-Primary, #BCFF5E);
+    }
+
+    .option img {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        transition: 200ms;
+    }
+
+    .titledescription {
+        width: 90%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+        padding-bottom: 1em;
+    }
+
+    .titledescription h3 {
+        width: 80%;
+    }
+
+    .titledescription p {
+        width: 80%;
+    }
+
+
+    .image {
+        width: 90%;
+        height: 50vh;
+        border-radius: 20px;
+        background: url("/static/media/workout1.png") lightgray 50% / cover no-repeat;
+        margin: 0;
+    }
+
+    .image1 {
+        width: 90%;
+        height: 50vh;
+        border-radius: 20px;
+        margin: 0;
+        background: url("/static/media/workout2.png") lightgray 50% / cover no-repeat;
+    }
+
+    .workout {
+        width: 100%;
+        max-width: 768px;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .promotions {
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .title h2 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+
+    .description ul li p,
+    .description1 ul li p {
+        width: 80%;
+    }
+
+    .description {
+        width: 100%;
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    .description1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
+    #joinnow {
+        margin: 0;
+    }
+
+    .membershipzone {
+        width: 100%;
+        max-width: 768px;
+        margin-top: 5vh;
+    }
+
+    .membership {
+        width: 100%;
+        max-width: 768px;
+        height: auto;
+    }
+
+    .membertitle {
+        width: 80%;
+    }
+
+    .membertitle h2 {
+        width: 100%;
+    }
+
+    .plans {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .plan {
+        width: 80%;
+        display: flex;
+        padding: 40px;
+        gap: 20px;
+        border-radius: 24px;
+        background: var(--Additional-Colors-White, #FFF);
+    }
+
+    #purchase {
+        cursor: pointer;
+        display: flex;
+        width: 70%;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background: var(--Main-Colors-Primary, #BCFF5E);
+    }
+
+    .plan2 {
+        width: 80%;
+    }
+
+    .plan ul li,
+    .plan2 ul li {
+        display: flex;
+        gap: 10px;
+    }
+
+    .content h6 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .content p {
+        text-align: left;
+        width: 80%;
+    }
+
+    .review {
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        background: var(--Additional-Colors-Background, #F9F9FB);
+        gap: 40px;
+    }
+
+    .reviewcardcontent h6 {
+        font-size: 1.5rem;
+    }
+
+    .getstarted {
+        display: flex;
+        width: 100%;
+        max-width: 768px;
+        padding: 0;
+    }
+
+    .start {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+    }
+
+    .desc {
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .desc h3 {
+        width: 100%;
+        margin-top: 30px;
+        margin: 5vh 10%;
+        color: #FFF;
+        font-family: "General Sans";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3rem;
+        letter-spacing: 0.24px;
+    }
+
+    .desc p {
+        margin-top: 30px;
+        color: var(--Additional-Colors-White, #FFF);
+        width: 70%;
+        margin: 5vh 10%;
+        font-family: "General Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2rem;
+        letter-spacing: 0.08px;
+        opacity: 0.64;
+    }
+
+    .submit {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .submit button {
+        display: flex;
+        margin: 5vh 10%;
+        padding: 12px;
+    }
+
+    .mainfooter {
+        width: 100%;
+        height: auto;
+        max-width: 768px;
+        background: #08172D;
+
+    }
+
+    .maincontent {
+        margin: auto;
+        padding: 5% 0;
+        display: flex;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info {
+        width: 35%;
+    }
+
+    .infocontent {
+        width: 50%;
+    }
+
+    .infocontent p {
+        width: 100%;
+    }
+
+    .symbol {
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 10vh auto;
+    }
+
+    #row1,
+    #row2 {
+        display: flex;
+        width: 45%;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .mail {
+        width: 100%;
+        margin: 5vh 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .mail input {
+        display: flex;
+        width: 50%;
+        padding: 10px;
+        align-items: center;
+        gap: 8px;
+        border-radius: 32px;
+        background: rgba(255, 255, 255, 0.12);
+    }
+
+    .social {
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: 5% auto;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .social ul {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .social ul li {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+    }
+
+    .quota {
+        position: absolute;
+        left: 1%;
+        top: 10%;
+        display: flex;
+        width:40px;
+        height: auto;
+    }
+
+
+    /*---------------------------------------- Membership.CSS-----------------------------------------------------*/
+
+    #membernav {
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #barsblack {
+        display: block;
+        margin-right: 10%;
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .overview {
+        margin-bottom: 5vh;
+        margin: 5%;
+        width: 85%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .overview ul {
+        width: 100%;
+    }
+
+    .overviewinfo {
+        display: flex;
+        width: 50%;
+        padding: 16px 12px;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .overviewcontent {
+        width: 50%;
+        max-width: 700px;
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .overviewcontent i,
+    .overviewcontent p {
+        display: flex;
+        width: 70%;
+        margin-left: 20%;
+        height: 5vh;
+        margin: 0;
+        padding: 16px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .overview ul li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overviewcontent p {
+        color: var(--Grayscale-100, #1C1C1E);
+        font-family: "General Sans";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.09px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overviewinfo p {
+        color: var(--Grayscale-100, #1C1C1E);
+        font-family: "General Sans";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0.09px;
+    }
+
+    .overview>p {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+        color: var(--Main-Colors-Secondary, #064BB4);
+    }
+
+    /*---------------------------------------- Membership_detail.CSS-----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

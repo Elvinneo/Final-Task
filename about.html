@@ -10,27 +10,29 @@
 
 <body>
     <section class="abouthero">
-        <nav>
-            <div class="homelogo">
-                <img src="/static/media/Group.svg" alt="">
-                <p>Bulking</p>
-            </div>
-            <div>
-                <ul id="homemenu">
-                    <li>Home</li>
-                    <li>Programs</li>
-                    <li>Trainers</li>
-                    <li>Membership</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="homeaccount">
-                <i><img src="/static/media/Buy.svg" alt=""></i>
-                <button id="login">Login</button>
-                <button id="signup">Signup</button>
-            </div>
-        </nav>
-
+        <div class="container">
+            <nav>
+                <div class="homelogo">
+                    <img src="/static/media/Group.svg" alt="">
+                    <p>Bulking</p>
+                </div>
+                <div id="homemenudiv">
+                    <ul id="homemenu">
+                        <li>Home</li>
+                        <li>Programs</li>
+                        <li>Trainers</li>
+                        <li>Membership</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="homeaccount">
+                    <i><img src="/static/media/Buy.svg" alt=""></i>
+                    <button id="login">Login</button>
+                    <button id="signup">Signup</button>
+                </div>
+                <i id='bars' class="fa-solid fa-bars"></i>
+            </nav>
+        </div>
         <div class="container">
             <div class="aboutmain">
                 <div class="aboutmainleft">
@@ -45,6 +47,9 @@
                 </div>
             </div>
             <div class="aboutrelative">
+                <div class="relimage">
+                    <img src="/static/media/relativ1.png" alt="">
+                </div>
                 <div id="relativ1" class="aboutrelativediv">
                     <div class="relleft">
                         <i><img src="/static/media/video-square.svg" alt=""></i>
@@ -63,8 +68,9 @@
                         <span class="text">Years of experience</span>
                     </div>
                 </div>
+                <div class="circleabsolute"></div>
             </div>
-            <div class="circleabsolute"></div>
+
         </div>
     </section>
     <div class="container">
@@ -87,10 +93,16 @@
                     </div>
                 </div>
                 <div class="aboutpagebodyrow">
+                    <div class="responsivetext">
+                        <i><img src="/static/media/heart-checkmark.svg" alt=""></i>
+                        <h3>Motivation</h3>
+                        <p>Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non
+                            malesuada. Inol massa id tellus natoque augue in et.</p>
+                    </div>
                     <div class="aboutpagebodyright">
                         <img src="/static/media/aboutpageimg2.png" alt="">
                     </div>
-                    <div class="aboutpagebodyrowleft">
+                    <div id="normal" class="aboutpagebodyrowleft">
                         <i><img src="/static/media/heart-checkmark.svg" alt=""></i>
                         <h3>Motivation</h3>
                         <p>Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non
@@ -112,24 +124,27 @@
         </div>
     </div>
     <div class="review">
-        <div class="descript">
-            <p>Review</p>
-            <h3>What Our Happy Clients Say</h3>
-        </div>
-        <div class="content">
-            <div class="quota">
-                <img src="/static/media/quote-up.svg" alt="">
+        <div class="container">
+            <div class="descript">
+                <p>Review</p>
+                <h3>What Our Happy Clients Say</h3>
             </div>
-            <h6>Member Review</h6>
-            <p>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus dolor
-                amet quam commodo amet in sed dui. Risus risus sed sed lectus. </p>
-            <div class="reviewcard">
-                <div class="reviewcardimage">
-                    <img src="/static/media/Ellipse 1.svg" alt="">
+            <div class="content">
+                <div class="quota">
+                    <img src="/static/media/quote-up.svg" alt="">
                 </div>
-                <div class="reviewcardcontent">
-                    <h4>Davis Rosser</h4>
-                    <h6>Member</h6>
+                <h6>Member Review</h6>
+                <p>Eget aliquet sit at lacinia. Magna consequat consectetur maecenas amet sagittis mi. Mattis cursus
+                    dolor
+                    amet quam commodo amet in sed dui. Risus risus sed sed lectus. </p>
+                <div class="reviewcard">
+                    <div class="reviewcardimage">
+                        <img src="/static/media/Ellipse 1.svg" alt="">
+                    </div>
+                    <div class="reviewcardcontent">
+                        <h4>Davis Rosser</h4>
+                        <h6>Member</h6>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,56 +165,58 @@
         </div>
     </div>
     <div class="mainfooter">
-        <div class="maincontent">
-            <div class="symbol">
-                <div class="info">
-                    <img src="/static/media/heart_white.svg" alt="">
-                    <p>Bulking</p>
+        <div class="container">
+            <div class="maincontent">
+                <div class="symbol">
+                    <div class="info">
+                        <img src="/static/media/heart_white.svg" alt="">
+                        <p>Bulking</p>
+                    </div>
+                    <div class="infocontent">
+                        <p>Get fit, stay healthy, and live life on their terms without fitness being an obstacle.</p>
+                    </div>
                 </div>
-                <div class="infocontent">
-                    <p>Get fit, stay healthy, and live life on their terms without fitness being an obstacle.</p>
+                <div class="menus">
+                    <ul id="row1">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Programs</a></li>
+                        <li><a href="">Membership</a></li>
+                    </ul>
+                    <ul id="row2">
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About us</a></li>
+                    </ul>
+                </div>
+                <div class="mail">
+                    <p>Newsletter</p>
+                    <div class="form">
+                        <form action="">
+                            <input type="textarea" placeholder="Your email here">
+                            <button>Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="menus">
-                <ul id="row1">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Programs</a></li>
-                    <li><a href="">Membership</a></li>
+            <hr>
+            <div class="social">
+                <p>© 2024 Nguli® Global Inc.</p>
+                <ul>
+                    <li><i><img src="/static/media/svg.svg" alt=""></i></li>
+                    <li><i><img src="/static/media/svg (1).svg" alt=""></i></li>
+                    <li><i><img src="/static/media/svg (2).svg" alt=""></i></li>
+                    <li><i><img src="/static/media/svg (3).svg" alt=""></i></li>
+                    <li><i><img src="/static/media/svg (4).svg" alt=""></i></li>
                 </ul>
-                <ul id="row2">
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About us</a></li>
-                </ul>
-            </div>
-            <div class="mail">
-                <p>Newsletter</p>
-                <div class="form">
-                    <form action="">
-                        <input type="textarea" placeholder="Your email here">
-                        <button>Send</button>
-                    </form>
+                <div class="policy">
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="social">
-            <p>© 2024 Nguli® Global Inc.</p>
-            <ul>
-                <li><i><img src="/static/media/svg.svg" alt=""></i></li>
-                <li><i><img src="/static/media/svg (1).svg" alt=""></i></li>
-                <li><i><img src="/static/media/svg (2).svg" alt=""></i></li>
-                <li><i><img src="/static/media/svg (3).svg" alt=""></i></li>
-                <li><i><img src="/static/media/svg (4).svg" alt=""></i></li>
-            </ul>
-            <div class="policy">
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-            </div>
-
         </div>
     </div>
     </div>
     <script src="/static/js/app.js"></script>
 </body>
+
 </html>

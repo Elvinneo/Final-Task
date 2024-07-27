@@ -69,7 +69,7 @@
 
 .detailframe {
     margin: 5% 0;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
@@ -199,7 +199,7 @@
 }
 
 .blogdetailcategories {
-    display: inline-flex;
+    display: flex;
     padding: 32px;
     flex-direction: column;
     align-items: flex-start;

@@ -3,16 +3,18 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: "General Sans";
+    font-style: normal;
 }
-#bars{
-    display:none
+
+#bars {
+    display: none
 }
 
 
 .hero,
 .member {
     width: 100%;
-    max-width: 1440px;
     height: auto;
     background-color: #064BB4
 }
@@ -23,18 +25,16 @@
 
 nav {
     display: flex;
-    width: 90%;
-    max-width: 1296px;
+    width: 95%;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5% 5%;
+    padding: 15px 0;
 
 }
 
 #homemenu,
 #othermenu {
     width: 54%;
-    max-width : 1260px;
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -44,9 +44,7 @@ nav #homemenu li,
 #othermenu li {
     opacity: 0.56;
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 1em;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 3%;
     letter-spacing: 0.08px;
@@ -65,9 +63,7 @@ nav #homemenu li,
 
 .homelogo p {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
     font-size: 1.25em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 1.3px;
@@ -80,7 +76,7 @@ nav #homemenu li,
 .homeaccount,
 .otheraccount {
     display: flex;
-    gap: 16px;
+    gap: 14px;
 }
 
 .account i {
@@ -91,7 +87,7 @@ nav #homemenu li,
     cursor: pointer;
     display: flex;
     width: 100%;
-    padding: 8% 15%;
+    padding: 12px 16px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -109,26 +105,24 @@ nav #homemenu li,
 }
 
 .container {
+    width: 1260px;
+    max-width: 90%;
     margin: 0 auto;
-    max-width: 1260px;
 
 }
 
 .head {
-    margin-top: 108px;
+    padding-top: 80px;
     display: flex;
 }
 
 .left {
     width: 50%;
-    max-width: 500px;
 }
 
 .left h1 {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 56px;
-    font-style: normal;
+    font-size: 3.5rem;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0.36px;
@@ -137,9 +131,7 @@ nav #homemenu li,
 .left p {
     margin-top: 30px;
     color: var(--Grayscale-30, #C7C7CC);
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -148,7 +140,7 @@ nav #homemenu li,
 .left button {
     cursor: pointer;
     margin-top: 40px;
-    display: inline-flex;
+    display: flex;
     padding: 16px 40px;
     justify-content: center;
     align-items: center;
@@ -157,25 +149,21 @@ nav #homemenu li,
 }
 
 .right {
-    z-index: 1;
-    position: relative;
-    width: 60%;
-    flex-shrink: 0;
-    
-
+    position:absolute;
+    width: 50%;
+    bottom:0;
+    right: 0;
 }
 
 .image_main {
-    width: 100%;
-    margin: 3%;
-    max-width: 824px;
-    flex-shrink: 0;
-
+    width: 90%;
 
 }
-.image_main img{
+
+.image_main img {
     width: 100%;
 }
+
 .logos {
     margin-top: 70px;
 }
@@ -192,7 +180,7 @@ nav #homemenu li,
     position: absolute;
     top: 15%;
     right: 110px;
-    display: inline-flex;
+    display: flex;
     padding: 12px;
     flex-direction: column;
     justify-content: center;
@@ -211,25 +199,17 @@ nav #homemenu li,
 
 .biceps h6 {
     color: var(--Additional-Colors-White, #FFF);
-    /* Medium/Regular */
-    font-family: "General Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    /* 157.143% */
     letter-spacing: 0.07px;
 }
 
 .biceps h5 {
     color: var(--Additional-Colors-White, #FFF);
-    /* Xtra-Large/SemiBold */
-    font-family: "General Sans";
     font-size: 1.1em;
-    font-style: normal;
     font-weight: 600;
     line-height: 26px;
-    /* 144.444% */
     letter-spacing: 0.09px;
 }
 
@@ -237,7 +217,7 @@ nav #homemenu li,
     position: absolute;
     top: 50%;
     right: 35%;
-    display: inline-flex;
+    display: flex;
     padding: 12px;
     flex-direction: column;
     justify-content: center;
@@ -256,34 +236,26 @@ nav #homemenu li,
 
 .heart h6 {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    /* 157.143% */
     letter-spacing: 0.07px;
 }
 
 .heart h5 {
     color: var(--Additional-Colors-White, #FFF);
-    /* Xtra-Large/SemiBold */
-    font-family: "General Sans";
     font-size: 1.1em;
-    font-style: normal;
     font-weight: 600;
     line-height: 26px;
-    /* 144.444% */
     letter-spacing: 0.09px;
 }
 
 #ellips1 {
     position: absolute;
-    top: 27%;
-    width: 631.457px;
-    height: 199.737px;
-    transform: rotate(-16.623deg);
-    flex-shrink: 0;
+    top: 32%;
+    width: 85%;
+    height: 20%;
+    transform: rotate(-15.623deg);
     border-radius: 100%;
     border: 3px solid rgba(188, 255, 94, 0.45);
 }
@@ -292,22 +264,20 @@ nav #homemenu li,
 #ellips2 {
     position: absolute;
     top: 50%;
-    right: 15%;
-    width: 401.968px;
-    height: 127.147px;
+    right: 20%;
+    width: 50%;
+    height: 12%;
     transform: rotate(-15.623deg);
-    flex-shrink: 0;
     border-radius: 50%;
     border: 3px solid rgba(188, 255, 94, 0.45);
 }
 
 .programs {
+    position:static;
+    padding-bottom: 30px;
+    padding-top: 50px;
     width: 90%;
-    max-width: 1296px;
-    z-index: 2;
-    position: absolute;
-    top: 800px;
-    margin-top: 10px;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -315,8 +285,7 @@ nav #homemenu li,
 
 .selections {
     width: 70%;
-    max-width: 873px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -344,9 +313,7 @@ nav #homemenu li,
 
 .selection h3 {
     color: var(--Grayscale-100, #1C1C1E);
-    font-family: "General Sans";
     font-size: 1.25em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.75em;
     letter-spacing: 0.1px;
@@ -354,13 +321,9 @@ nav #homemenu li,
 
 .selection p {
     color: var(--Grayscale-60, #636366);
-    /* Large/Regular */
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
-    /* 150% */
     letter-spacing: 0.08px;
 }
 
@@ -381,7 +344,6 @@ nav #homemenu li,
 }
 
 .option img:hover {
-
     transform: scale(1.3);
 }
 
@@ -394,7 +356,7 @@ nav #homemenu li,
 
 .titledescription {
     width: 20%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
@@ -403,9 +365,7 @@ nav #homemenu li,
 .titledescription h3 {
     width: 100%;
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 2.5rem;
     letter-spacing: 0.2px;
@@ -414,14 +374,11 @@ nav #homemenu li,
 .titledescription p {
     width: 100%;
     color: var(--Grayscale-20, #D1D1D6);
-    font-family: "General Sans";
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0.08px;
 }
-
 
 .image {
     width: 50%;
@@ -429,8 +386,8 @@ nav #homemenu li,
     border-radius: 20px;
     background: url("/static/media/workout1.png") lightgray 50% / cover no-repeat;
 }
-.image1
- {
+
+.image1 {
     width: 50%;
     height: 500px;
     border-radius: 20px;
@@ -442,35 +399,32 @@ nav #homemenu li,
 }
 
 .workout {
-    width: 90%;
-    max-width: 1440px;
-    display: inline-flex;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 5vh auto;
     gap: 50px;
 }
 
 .promotions {
-    width: 90%;
-    max-width: 1360px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
     align-items: center;
     justify-content: center;
-    padding: 40px;
 }
 
 .title h2 {
     width: 45%;
-    max-width: 600px;
-    margin: 50px auto;
+    margin-bottom: 50px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--Grayscale-100, #1C1C1E);
     text-align: center;
-    font-family: "General Sans";
     font-size: 3em;
-    font-style: normal;
     font-weight: 500;
     line-height: 56px;
     letter-spacing: 0.24px;
@@ -480,26 +434,23 @@ nav #homemenu li,
 .description ul li p,
 .description1 ul li p {
     color: var(--Grayscale-100, #1C1C1E);
-    font-family: "General Sans";
     font-size: 1.1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.09px;
 }
 
-.description {
+.description,
+.description1 {
     width: 40%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.description1 {
-    width: 36%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+.description h2,
+.description1 h2 {
+    width: 90%;
 }
 
 .description ul li,
@@ -532,14 +483,13 @@ nav #homemenu li,
     background: var(--Main-Colors-Primary, #BCFF5E);
 }
 
-.membershipzone{
+.membershipzone {
     width: 100%;
-    max-width: 1440px;
     margin-top: 0;
 }
+
 .membership {
     width: 100%;
-    max-width: 1440px;
     display: flex;
     padding: 120px 0;
     flex-direction: column;
@@ -554,11 +504,9 @@ nav #homemenu li,
     width: 45%;
     color: var(--Grayscale-Grayscale-100, #171725);
     text-align: center;
-    font-family: "General Sans";
     font-size: 2.5em;
-    font-style: normal;
     font-weight: 500;
-    line-height: 48px;
+    line-height: 3rem;
     letter-spacing: 0.2px;
     margin: 0 auto;
 
@@ -567,9 +515,7 @@ nav #homemenu li,
 .membertitle p {
     text-align: center;
     color: var(--Main-Colors-Secondary, #064BB4);
-    font-family: "General Sans";
     font-size: 0.80em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.4em;
     letter-spacing: 0.07px;
@@ -580,9 +526,7 @@ nav #homemenu li,
     width: 100%;
     color: var(--Grayscale-Grayscale-100, #171725);
     text-align: center;
-    font-family: "General Sans";
-    font-size:2rem;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 3rem;
     letter-spacing: 0.2px;
@@ -658,9 +602,7 @@ nav #homemenu li,
 .plan h4 {
     color: var(--Main-Colors-Secondary, #064BB4);
     text-align: center;
-    font-family: "General Sans";
     font-size: 1.25em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.75em;
     letter-spacing: 0.1px;
@@ -669,9 +611,7 @@ nav #homemenu li,
 .plan2 h4 {
     color: var(--Additional-Colors-White, #FFF);
     text-align: center;
-    font-family: "General Sans";
     font-size: 1.25em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.75em;
     letter-spacing: 0.1px;
@@ -679,22 +619,18 @@ nav #homemenu li,
 
 .descript p {
     color: var(--Main-Colors-Secondary, #064BB4);
-    font-family: "General Sans";
-    font-size: 14px;
-    font-style: normal;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.4em;
     letter-spacing: 0.07px;
 }
 
 .descript h3 {
-    margin: 20px auto;
-    width: 70%;
+    width: 100%;
+    padding: 20px 30%;
     color: var(--Grayscale-Grayscale-100, #171725);
     text-align: center;
-    font-family: "General Sans";
-    font-size: 2.5em;
-    font-style: normal;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.2px;
@@ -704,9 +640,7 @@ nav #homemenu li,
     text-align: left;
     margin: 0 30%;
     color: var(--Grayscale-40, #AEAEB2);
-    font-family: "General Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.4em;
     letter-spacing: 0.07px;
@@ -721,19 +655,15 @@ nav #homemenu li,
     width: 40%;
     margin: 20px auto;
     color: #000;
-    font-family: "General Sans";
     font-size: 1.5em;
-    font-style: normal;
     font-weight: 400;
-    line-height: 2em;
+    line-height: 2rem;
     letter-spacing: 0.12px;
 }
 
 .review {
     width: 100%;
-    max-width: 1440px;
     display: flex;
-    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     background: var(--Additional-Colors-Background, #F9F9FB);
@@ -741,9 +671,9 @@ nav #homemenu li,
 }
 
 .reviewcard {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-right: 30%;
+    padding-left: 30%;
     gap: 20px;
 
 }
@@ -752,8 +682,6 @@ nav #homemenu li,
     width: 56px;
     height: 56px;
 }
-
-
 
 .reviewcardcontent {
     display: flex;
@@ -765,9 +693,7 @@ nav #homemenu li,
 
 .reviewcardcontent h4 {
     color: #000;
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -776,18 +702,20 @@ nav #homemenu li,
 .reviewcardcontent h6 {
     margin: 0;
     color: #000;
-    font-family: "General Sans";
     font-size: 1.875em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
     letter-spacing: 0.07px;
 }
-
+.actions{
+    width: 100%;
+    padding: 30px;
+}
 .actions ul {
-    cursor: pointer;
-    display: inline-flex;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 }
 
@@ -807,8 +735,7 @@ nav #homemenu li,
 .getstarted {
     display: flex;
     width: 100%;
-    max-width: 1440px;
-    padding: 80px 120px;
+    padding: 80px 0;
     justify-content: center;
     align-items: center;
     background: var(--Main-Colors-Secondary, #064BB4);
@@ -819,7 +746,7 @@ nav #homemenu li,
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
+
 }
 
 .desc {
@@ -830,21 +757,17 @@ nav #homemenu li,
 .desc h3 {
     margin-top: 30px;
     color: #FFF;
-    font-family: "General Sans";
     font-size: 3em;
-    font-style: normal;
     font-weight: 500;
     line-height: 56px;
     letter-spacing: 0.24px;
-    
+
 }
 
 .desc p {
     margin-top: 30px;
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -862,15 +785,14 @@ nav #homemenu li,
 
 .mainfooter {
     width: 100%;
-    max-width: 1440px;
     background: #08172D;
 }
 
 .maincontent {
     margin: auto;
-    padding: 5% 0;
+    padding: 50px 0px;
     display: flex;
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -891,9 +813,7 @@ nav #homemenu li,
 
 .info p {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
     font-size: 1.25em;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.5em;
     letter-spacing: 1.3px;
@@ -902,9 +822,7 @@ nav #homemenu li,
 .infocontent p {
     width: 70%;
     color: var(--Grayscale-40, #AEAEB2);
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -930,9 +848,7 @@ nav #homemenu li,
 .menus ul li a {
     text-decoration: none;
     color: #C5C5C5;
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -947,10 +863,8 @@ nav #homemenu li,
 }
 
 .mainfooter hr {
-    width: 80%;
+    width: 100%;
     height: 0px;
-    margin: 0 auto;
-    flex-shrink: 0;
     stroke-width: 1px;
     stroke: var(--Additional-Colors-Line, #E9EBED);
     opacity: 0.16;
@@ -971,9 +885,7 @@ nav #homemenu li,
 
 .mail p {
     color: var(--Grayscale-50, #8E8E93);
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.5px;
@@ -981,7 +893,7 @@ nav #homemenu li,
 
 .mail input {
     display: flex;
-    width: 150px;
+    width: 250px;
     padding: 16px 32px;
     align-items: center;
     gap: 8px;
@@ -1006,18 +918,16 @@ nav #homemenu li,
 
 .social {
     display: flex;
-    width: 80%;
+    width: 100%;
     height: 40px;
-    margin: 5% auto ;
+    padding: 50px 0;
     justify-content: space-between;
     align-items: center;
 }
 
 .social p {
     color: var(--Grayscale-40, #AEAEB2);
-    font-family: "General Sans";
     font-size: 1em;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.08px;
@@ -1025,8 +935,7 @@ nav #homemenu li,
 
 .social ul {
     display: flex;
-    width: 240px;
-    height: 40px;
+    padding: 30px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -1039,16 +948,9 @@ nav #homemenu li,
     padding: 13px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.12);
     cursor: pointer;
-}
-
-.social ul li i img {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
 }
 
 .policy {
@@ -1061,13 +963,14 @@ nav #homemenu li,
 .quota {
     position: absolute;
     left: 23%;
-    top:10%;
+    top: 10%;
     display: flex;
     width: 56px;
     height: 56px;
     justify-content: center;
     align-items: center;
 }
-.quota img{
+
+.quota img {
     width: 100%;
 }

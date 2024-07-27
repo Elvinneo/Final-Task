@@ -1,17 +1,16 @@
 .overview {
-    width: 90%;
-    max-width: 1340px;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0 auto;
-    margin-bottom:10vh ;
-
+    margin-bottom: 10vh;
 }
-#barsblack{
+
+#barsblack {
     display: none;
 }
+
 .overviewinfo {
     display: flex;
     width: 35%;
@@ -44,22 +43,32 @@
     align-items: center;
 }
 
-.overviewcontent p,.overviewinfo p {
+#membernav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 0;
+}
+
+.overviewcontent p,
+.overviewinfo p {
     color: var(--Grayscale-100, #1C1C1E);
-    
 }
 
 .overview>p {
     margin: 5% 1%;
     width: 100%;
     color: var(--Main-Colors-Secondary, #064BB4);
-
 }
-.overview>p,.overviewcontent p,.overviewinfo p{
+
+.overview>p,
+.overviewcontent p,
+.overviewinfo p {
     font-family: "General Sans";
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.8rem;
     letter-spacing: 0.09px;
 }

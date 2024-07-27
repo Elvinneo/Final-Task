@@ -1,7 +1,6 @@
 .abouthero {
     width: 100%;
-    height: 155vh;
-    background-color: #064BB4
+    background-color: #064BB4;
 }
 
 .aboutmain {
@@ -17,14 +16,12 @@
 }
 
 .aboutmainleft button {
-    color: var(--Main-Colors-Primary, #BCFF5E);
-    font-family: "General Sans";
-    font-size: 14px;
-    font-style: normal;
+    color: var(--Main-Colors-Primary, #BCFF5E);;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.07px;
-    display: inline-flex;
+    display: flex;
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
@@ -36,17 +33,16 @@
 
 .aboutmainleft h2 {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 72px;
-    font-style: normal;
+    font-size: 4rem;
     font-weight: 400;
     line-height: 80px;
     letter-spacing: 0.36px;
+    width: 80%;
 
 }
 
 .aboutmainright {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -56,9 +52,7 @@
 
 .aboutmainright h3 {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 24px;
-    font-style: normal;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0.12px;
@@ -66,26 +60,27 @@
 
 .aboutmainright p {
     color: var(--Grayscale-20, #D1D1D6);
-    font-family: "General Sans";
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.09px;
 }
 
 .aboutrelative {
-    width: 40.2%;
-    height: 90vh;
-    flex-shrink: 0;
-    background: url('/static/media/relativ1.png') 0px 0px / 100% 100% no-repeat;
-    position: absolute;
-    bottom: -55%;
-    left: 30%;
-}
+    width: 100%;
+    position: relative;
 
+}
+.relimage{
+    width: 60%;
+    margin: 0 auto;
+  
+}
+.relimage img{
+    width: 100%;
+}
 .aboutrelativediv {
-    display: inline-flex;
+    display: flex;
     padding: 20px;
     align-items: flex-start;
     gap: 8px;
@@ -112,9 +107,7 @@
 
 .value {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 32px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.16px;
@@ -122,9 +115,7 @@
 
 .text {
     color: var(--Additional-Colors-White, #FFF);
-    font-family: "General Sans";
-    font-size: 14px;
-    font-style: normal;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.07px;
@@ -132,26 +123,25 @@
 
 #relativ1 {
     position: absolute;
-    top: 14%;
-    right: -5%;
+    top: 10%;
+    right: 20%;
 }
 
 #relativ2 {
     position: absolute;
-    bottom: 20%;
-    left: -18%;
+    bottom: 25%;
+    left: 10%;
 }
 
 .circleabsolute {
-    width: 613.923px;
-    height: 194.191px;
+    width: 52%;
+    height: 20%;
     transform: rotate(-15.623deg);
-    flex-shrink: 0;
     border-radius: 50%;
     border: 3px solid rgba(188, 255, 94, 0.45);
     position: absolute;
-    bottom: -40%;
-    left: 25%;
+    top: 50%;
+    left: 20%;
 
 }
 
@@ -160,12 +150,12 @@
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0;
+
 } 
 
 .pageheader {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,9 +164,7 @@
 
 .pageheader h2 {
     color: #000;
-    font-family: "General Sans";
-    font-size: 48px;
-    font-style: normal;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 56px;
     letter-spacing: 0.24px;
@@ -185,9 +173,7 @@
 .pageheader p {
     color: var(--Grayscale-60, #636366);
     text-align: center;
-    font-family: "General Sans";
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -201,15 +187,14 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-bottom: 8%;
 
 
 }
 
-.aboutpagebodyrowleft {
+.aboutpagebodyrowleft ,.responsivetext{
     display: flex;
-    padding: 64px 40px;
-    width: 70%;
+    padding: 40px ;
+    width: 40%;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
@@ -217,36 +202,36 @@
     background: var(--Additional-Colors-White, #FFF);
 }
 
-.aboutpagebodyrowleft i {
+.aboutpagebodyrowleft i ,.responsivetext i{
     width: 48px;
     height: 48px;
 }
 
-.aboutpagebodyrowleft h3 {
+.aboutpagebodyrowleft h3,.responsivetext h3{
     color: var(--Grayscale-100, #1C1C1E);
-    font-family: "General Sans";
-    font-size: 32px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.16px;
 }
 
-.aboutpagebodyrowleft p {
+.aboutpagebodyrowleft p ,.responsivetext p{
     color: var(--Grayscale-100, #1C1C1E);
-    font-family: "General Sans";
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.09px;
 }
 
 .aboutpagebodyright {
-    width: 100%;
-    height: 100%;
+    width: 60%;
 }
 
 .aboutpagebodyright img {
     width: 100%;
+}
+
+.responsivetext{
+    display: none;
+
 }

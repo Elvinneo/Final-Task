@@ -1,0 +1,231 @@
+.blogdetailheader {
+    margin: 5% 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bdheaderleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 52%;
+}
+
+.blogdetailright {
+    width: 45%;
+}
+
+.bdheaderleft span {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.bdheaderleft h2 {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0.24px;
+}
+
+.bdheaderright ul {
+    display: flex;
+    width: 190px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.bdheaderright ul li {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.detailimage {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.detailimage img {
+    width: 80%;
+}
+
+.detailframe {
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 75%;
+}
+
+.span {
+    display: flex;
+    padding-left: 32px;
+    align-items: center;
+    gap: 8px;
+}
+
+.detailframe p {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+}
+
+#bold {
+    color: var(--Grayscale-500, #44444C);
+    font-family: "General Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+#thin {
+    color: var(--Grayscale-50, #8E8E93);
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+
+}
+
+#end {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+}
+
+.blogdetailrl {
+    display: flex;
+    margin: 5% 0;
+}
+
+
+.blogdetailcontentright {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    width: 45%;
+}
+
+
+.blogdetailcontentright h3 {
+    color: var(--Grayscale-900, #09080D);
+    font-family: "General Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+.blogdetailarticles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+
+}
+
+.blogdetailarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--Base-Line, #E9EBED);
+}
+
+.blogdetailarticle p {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.blogdetailarticle h2 {
+    color: var(--Grayscale-900, #09080D);
+    font-family: "General Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+.blogarticledate {
+    color: var(--Grayscale-400, #5E5D65);
+    font-family: "General Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.07px;
+}
+
+.blogdetailcategories {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.blogdetailcategories h3 {
+    color: var(--Grayscale-900, #09080D);
+    font-family: "General Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+}
+
+.blogdetailcategories ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.blogdetailcategories ul li {
+    display: flex;
+    width: 321px;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bulking</title>
     <link rel="stylesheet" href="/static/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -30,19 +27,28 @@
                 </div>
                 <div class="homeaccount">
                     <i><img src="/static/media/Buy.svg" alt=""></i>
-                    <button id="login">Login</button>
-                    <button id="signup">Signup</button>
+                    <button id="login" type="submit" onclick="location.href='{% url ###### % }'">Login</button>
+                    <button id="signup" type="submit" onclick="location.href='{% url ###### % }'">Signup</button>
                 </div>
-                <i id='bars' class="fa-solid fa-bars"></i>
+                <div class="drop">
+                    <i id='bars' class="fa-solid fa-bars"></i>
+                    <div id="dropmenu" class="dropdownMain">
+                        <a href="#" id="home">Home</a>
+                        <a href="#" id="programs">Programs</a>
+                        <a href="#" id="trainers">Trainers</a>
+                        <a href="#" id="membership">Membership</a>
+                        <a href="#" id="contact">Contact</a>
+                    </div>
+                </div>
             </nav>
         </div>
         <div class="container">
-            <div class="head">
+            <div id="head" class="head">
                 <div class="left">
                     <h1>For Your Health and Fitness Goals in No Time</h1>
                     <p>It doesn’t matter if your goal is to get stronger, burn fat, or to just stay fit our world class
                         coaches will guide you every step of the way.</p>
-                    <button>Book a class</button>
+                    <button type="submit" onclick="location.href='{ % url ##### % }'"></button>Book a class</button>
                     <div class="logos">
                         <p>Sponsored by</p>
                         <ul>
@@ -77,7 +83,7 @@
                         <p>It’s a long estabilished fact that a reader will be distracted by the readable content</p>
                         <div class="option">
                             <span>Learn more</span>
-                            <i><img src="/static/media/arrow-right.svg" alt=""></i>
+                            <a href=""><img src="/static/media/arrow-right.svg" alt=""></a>
                         </div>
                     </div>
                     <div id="selection1" class="selection">
@@ -87,7 +93,7 @@
                         </p>
                         <div class="option">
                             <span>Learn more</span>
-                            <i><img src="/static/media/arrow-right.svg" alt=""></i>
+                            <a href=""><img src="/static/media/arrow-right.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="selection">
@@ -97,7 +103,7 @@
                             content</p>
                         <div class="option">
                             <span>Learn more</span>
-                            <i><img src="/static/media/arrow-right.svg" alt=""></i>
+                            <a href=""><img src="/static/media/arrow-right.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +136,7 @@
                             <p>Small Label-Regular</p>
                         </li>
                     </ul>
-                    <button id="joinnow">Join now</button>
+                    <button id="joinnow" type="submit" onclick="location.href='{% url ###### % }'">Join now</button>
                 </div>
                 <div class="image"></div>
             </div>
@@ -150,7 +156,7 @@
                             <p>Powerlifting</p>
                         </li>
                     </ul>
-                    <button id="joinnow">Join now</button>
+                    <button id="joinnow" type="submit" onclick="location.href='{ % url ###### % }'">Join now</button>
                 </div>
             </div>
         </div>
@@ -180,7 +186,8 @@
                                 <p>10 health & fitness guides</p>
                             </li>
                         </ul>
-                        <button id="purchase">Purchase Plan</button>
+                        <button id="purchase" type="submit" onclick="location.href='{ % url  % }'">Purchase
+                            Plan</button>
                     </div>
                     <div class="plan2">
                         <div class="types_planes">
@@ -199,7 +206,8 @@
                                 <p>1-on-1 personal trainning</p>
                             </li>
                         </ul>
-                        <button id="purchase">Purchase Plan</button>
+                        <button id="purchase" type="submit" onclick="location.href='{ % url ##### % }'">Purchase
+                            Plan</button>
                     </div>
                     <div class="plan">
                         <div class="types_planes">
@@ -218,7 +226,8 @@
                                 <p>Access to my online tutorials</p>
                             </li>
                         </ul>
-                        <button id="purchase">Purchase Plan</button>
+                        <button id="purchase" type="submit" onclick="location.href='{ % url ###### % }'">Purchase
+                            Plan</button>
                     </div>
                 </div>
             </div>
@@ -275,7 +284,7 @@
                         stay healthy, and live life on their terms without fitness being an obstacle.</p>
                 </div>
                 <div class="submit">
-                    <button>Get Started</button>
+                    <button type="submit" onclick="location.href='{ % url #### % }'">Get Started</button>
                 </div>
             </div>
         </div>
@@ -309,7 +318,7 @@
                     <div class="form">
                         <form action="">
                             <input type="textarea" placeholder="Your email here">
-                            <button>Send</button>
+                            <button type="submit" onclick="location.href='{ % url  % }'">Send</button>
                         </form>
                     </div>
                 </div>

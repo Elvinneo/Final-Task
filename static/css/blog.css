@@ -189,28 +189,26 @@
 
 }
 
-.topiccards ul li {
+.topiccards ul a {
     display: flex;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
     color: var(--Grayscale-100, #1C1C1E);
-    font-size: 0.875rem;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.8rem;
     letter-spacing: 0.07px;
+    text-decoration: none;
+
 }
 
-#all {
-    display: flex;
-    padding: 8px 35px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+
+.active{
     background: var(--Main-Colors-Primary, #BCFF5E);
+    border-radius: 20px;
 }
-
 .topcard {
     width: 100%;
     display: flex;

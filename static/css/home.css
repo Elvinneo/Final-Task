@@ -7,7 +7,8 @@
     font-style: normal;
 }
 
-#bars {
+#bars,
+#barsblack {
     display: none
 }
 
@@ -30,7 +31,6 @@
 
 nav {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
@@ -39,7 +39,6 @@ nav {
 
 #homemenu,
 #othermenu {
-    /* width: 54%; */
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -57,6 +56,56 @@ nav #homemenu li,
 
 #othermenu li {
     color: var(--Grayscale-100, #1C1C1E);
+}
+
+.drop {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.dropdownMain ,.dropdownMainBlack {
+    width: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: -80px;
+    backdrop-filter: blur(10px);
+}
+.dropdownMain a:hover{
+    color: #121024;
+    font-weight: 600;
+    font-size: 20px;
+}
+.dropdownMainBlack  a:hover{
+    color: #064BB4;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Show{
+    display: block;
+}
+
+.dropdownMain a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    transition: 100ms;
+}
+.dropdownMainBlack a {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    transition: 100ms;
 }
 
 .homelogo,
@@ -97,10 +146,6 @@ nav #homemenu li,
     justify-content: center;
 }
 
-/* .homeaccount i img {
-    width: 100%;
-} */
-
 #login {
     cursor: pointer;
     display: flex;
@@ -131,7 +176,7 @@ nav #homemenu li,
 }
 
 .head {
-    padding-top: 80px;
+    padding-top: 150px;
     display: flex;
 }
 
@@ -171,7 +216,6 @@ nav #homemenu li,
 
 .right {
     position: absolute;
-    /* width: 50%; */
     z-index: 1;
     top: 90px;
     right: 12px;
@@ -201,7 +245,7 @@ nav #homemenu li,
 .biceps {
     position: absolute;
     top: 15%;
-    right: 110px;
+    right: 230px;
     display: flex;
     padding: 12px;
     flex-direction: column;
@@ -238,7 +282,7 @@ nav #homemenu li,
 .heart {
     position: absolute;
     top: 50%;
-    right: 35%;
+    right: 45%;
     display: flex;
     padding: 12px;
     flex-direction: column;
@@ -295,20 +339,14 @@ nav #homemenu li,
 }
 
 .programs {
-    /* position: static;
-    padding-bottom: 30px;
-    padding-top: 50px;
-    width: 90%; */
-    /* z-index: 1; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    padding:98px 0;
+    padding: 98px 0;
 }
 
 .selections {
-    /* width: 70%; */
     width: calc(78% - 50px * 0.78);
     display: flex;
     justify-content: center;
@@ -391,7 +429,7 @@ nav #homemenu li,
 .titledescription h3 {
     width: 100%;
     color: var(--Additional-Colors-White, #FFF);
-    font-size:40px;
+    font-size: 40px;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.2px;
@@ -525,8 +563,6 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     gap: 43px;
-
-
 }
 
 .membertitle {
@@ -691,7 +727,7 @@ nav #homemenu li,
 }
 
 .review {
-   padding: 120px 0;
+    padding: 120px 0;
     width: 100%;
     display: flex;
     text-align: center;
@@ -703,7 +739,8 @@ nav #homemenu li,
 .reviewcard {
     width: 100%;
     display: flex;
-    padding-left: 30%;
+    padding: 30px 30%;
+
     gap: 20px;
 
 }
@@ -812,7 +849,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-     border: none;
+    border: none;
     background: var(--Main-Colors-Primary, #BCFF5E);
 }
 

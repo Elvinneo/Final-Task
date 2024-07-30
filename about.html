@@ -27,16 +27,25 @@
                 </div>
                 <div class="homeaccount">
                     <i><img src="/static/media/Buy.svg" alt=""></i>
-                    <button id="login">Login</button>
-                    <button id="signup">Signup</button>
+                    <button id="login" type="submit" onclick="location.href='{% url ###### % }'">Login</button>
+                    <button id="signup" type="submit" onclick="location.href='{% url ###### % }'">Signup</button>
                 </div>
-                <i id='bars' class="fa-solid fa-bars"></i>
+                <div  id="drop" class="drop">
+                    <i id='bars' class="fa-solid fa-bars"></i>
+                    <div id="dropmenu" class="dropdownMain">
+                        <a href="#" id="home">Home</a>
+                        <a href="#" id="programs">Programs</a>
+                        <a href="#" id="trainers">Trainers</a>
+                        <a href="#" id="membership">Membership</a>
+                        <a href="#" id="contact">Contact</a>
+                    </div>
+                </div>
             </nav>
         </div>
         <div class="container">
             <div class="aboutmain">
                 <div class="aboutmainleft">
-                    <button>About us</button>
+                    <button type="submit" onclick="location.href='{% url ###### % }'">About us</button>
                     <h2>Hi, I'm Adison, your personal trainner</h2>
                 </div>
                 <div class="aboutmainright">
@@ -193,7 +202,7 @@
                     <div class="form">
                         <form action="">
                             <input type="textarea" placeholder="Your email here">
-                            <button>Send</button>
+                            <button type="submit" onclick="location.href='{% url ###### % }'">Send</button>
                         </form>
                     </div>
                 </div>
@@ -218,5 +227,4 @@
     </div>
     <script src="/static/js/app.js"></script>
 </body>
-
 </html>

@@ -62,7 +62,6 @@ nav #homemenu li,
     display: flex;
     flex-wrap: wrap;
     position: relative;
-
 }
 
 .dropdownMain ,.dropdownMainBlack {
@@ -81,7 +80,7 @@ nav #homemenu li,
     font-weight: 600;
     font-size: 20px;
 }
-.dropdownMainBlack  a:hover{
+.dropdownMainBlack a:hover{
     color: #064BB4;
     font-weight: 600;
     font-size: 20px;
@@ -96,7 +95,7 @@ nav #homemenu li,
     color: white;
     text-decoration: none;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 30px;
     transition: 100ms;
 }
 .dropdownMainBlack a {
@@ -104,7 +103,7 @@ nav #homemenu li,
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 30px;
     transition: 100ms;
 }
 
@@ -558,7 +557,7 @@ nav #homemenu li,
 .membership {
     width: 100%;
     display: flex;
-    padding: 120px 0;
+    padding: 120px 0 0 ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -786,6 +785,18 @@ nav #homemenu li,
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+
+.activearrow{
+    font-size: 24px;
+
+}
+
+.passivearrow{
+    filter: opacity(0.5);
+    font-size: 16px;
+
 }
 
 .rectangle {

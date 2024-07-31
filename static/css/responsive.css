@@ -1,3 +1,5 @@
+
+
 @media only screen and (min-width:770px) and (max-width:1000px) {
 
 
@@ -645,12 +647,12 @@
 
     #membernav {
         width: 100%;
-        padding:15px 0px;
+        padding: 15px 0px;
         justify-content: flex-start;
         gap: 80px;
 
     }
- 
+
 
     #barsblack {
         display: block;

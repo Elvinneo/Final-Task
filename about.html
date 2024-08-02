@@ -30,17 +30,29 @@
                     <button id="login" type="submit" onclick="location.href='{% url ###### % }'">Login</button>
                     <button id="signup" type="submit" onclick="location.href='{% url ###### % }'">Signup</button>
                 </div>
-                <div  id="drop" class="drop">
+                <div class="drop">
                     <i id='bars' class="fa-solid fa-bars"></i>
-                    <div id="dropmenu" class="dropdownMain">
-                        <a href="#" id="home">Home</a>
-                        <a href="#" id="programs">Programs</a>
-                        <a href="#" id="trainers">Trainers</a>
-                        <a href="#" id="membership">Membership</a>
-                        <a href="#" id="contact">Contact</a>
-                    </div>
                 </div>
             </nav>
+            <div class="drop">
+                <div id="dropmenu" class="dropdownMain">
+                    <div class="dropprograms">
+                        <a href="#" id="home">Home</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="programs">Programs</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="trainers">Trainers</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="membership">Membership</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="contact">contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="aboutmain">
@@ -227,4 +239,5 @@
     </div>
     <script src="/static/js/app.js"></script>
 </body>
+
 </html>

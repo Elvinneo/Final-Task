@@ -1,7 +1,4 @@
-
-
 @media only screen and (min-width:770px) and (max-width:1000px) {
-
 
     #homemenudiv,
     #othermenudiv,
@@ -34,8 +31,6 @@
         font-size: 1.5rem;
     }
 
-
-
     #barsblack {
         display: block;
         color: black;
@@ -66,7 +61,6 @@
     .maincontent {
         flex-wrap: wrap;
         gap: 10vh;
-
     }
 
     .mail {
@@ -106,13 +100,12 @@
         justify-content: center;
         align-items: flex-start;
         gap: 0.5em;
-        background: var(--Main-Colors-Primary, #BCFF5E);
+        background: #BCFF5E;
     }
 
     .aboutpagebodyrow {
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
     .aboutpagebodyrowleft,
@@ -131,7 +124,6 @@
     .responsivetext i {
         width: 60%;
         justify-content: flex-start;
-
     }
 
     .aboutmainleft h2 {
@@ -152,14 +144,12 @@
         display: contents;
     }
 
-
-
     .blogdetailrl {
         flex-wrap: wrap;
     }
 
     .bdheaderleft h2 {
-        color: var(--Grayscale-100, #1C1C1E);
+        color: #1C1C1E;
         font-size: 32px;
     }
 
@@ -192,14 +182,12 @@
     .homeaccount,
     .otheraccount {
         gap: 5px;
-
     }
 
     nav {
         justify-content: flex-start;
         gap: 15px;
     }
-
 
     .drop i {
         padding-left: 20px;
@@ -217,7 +205,6 @@
         gap: 36px;
     }
 
-
     #bars {
         display: block;
         color: white;
@@ -233,7 +220,7 @@
     }
 
     .member {
-        background: var(--Additional-Colors-Background, #F9F9FB);
+        background: #F9F9FB;
     }
 
 
@@ -323,7 +310,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 0.5em;
-        background: var(--Main-Colors-Primary, #BCFF5E);
+        background: #BCFF5E;
     }
 
     .option img {
@@ -377,7 +364,6 @@
     .title h2 {
         width: 100%;
         margin: 0 auto;
-
     }
 
     .descript h3 {
@@ -448,14 +434,14 @@
         padding: 40px;
         gap: 20px;
         border-radius: 24px;
-        background: var(--Additional-Colors-White, #FFF);
+        background: #FFF;
     }
 
     #purchase {
         width: 70%;
         padding: 12px 16px;
         border-radius: 20px;
-        background: var(--Main-Colors-Primary, #BCFF5E);
+        background: #BCFF5E;
     }
 
     .plan2 {
@@ -486,7 +472,7 @@
     .review {
         width: 100%;
         flex-wrap: wrap;
-        background: var(--Additional-Colors-Background, #F9F9FB);
+        background: #F9F9FB;
         gap: 40px;
     }
 
@@ -526,7 +512,7 @@
 
     .desc p {
         margin-top: 30px;
-        color: var(--Additional-Colors-White, #FFF);
+        color: #FFF;
         width: 70%;
         padding-top: 5vh;
         padding-left: 10%;
@@ -551,7 +537,6 @@
     .mainfooter {
         width: 100%;
         background: #08172D;
-
     }
 
     .maincontent {
@@ -699,7 +684,7 @@
     }
 
     .overviewcontent p {
-        color: var(--Grayscale-100, #1C1C1E);
+        color: #1C1C1E;
         font-size: 1.125rem;
         font-weight: 500;
         line-height: 26px;
@@ -707,7 +692,7 @@
     }
 
     .overviewinfo p {
-        color: var(--Grayscale-100, #1C1C1E);
+        color: #1C1C1E;
         font-size: 1.125rem;
         font-weight: 500;
         line-height: 1.5rem;
@@ -717,7 +702,7 @@
     .overview>p {
         width: 100%;
         margin-bottom: 5vh;
-        color: var(--Main-Colors-Secondary, #064BB4);
+        color: #064BB4;
     }
 
     /*---------------------------------------- Membershipdetail.CSS-----------------------------------------------------*/
@@ -760,13 +745,11 @@
     .maincontent {
         flex-wrap: wrap;
         gap: 10vh;
-
     }
 
     .mail {
         width: 100%;
         padding: auto;
-
         margin: 0;
     }
 
@@ -820,7 +803,6 @@
     .aboutpagebodyrow {
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
     .aboutpagebodyrowleft,
@@ -839,7 +821,6 @@
     .responsivetext i {
         width: 60%;
         justify-content: flex-start;
-
     }
 
     .aboutmainleft h2,
@@ -860,7 +841,7 @@
     }
 
     .bdheaderleft h2 {
-        color: var(--Grayscale-100, #1C1C1E);
+        color: #1C1C1E;
         font-size: 32px;
     }
 
@@ -880,5 +861,174 @@
     .bdheaderright {
         margin-left: 100px;
     }
+
+
+    /*---------------------------------------- Overlays.CSS-----------------------------------------------------*/
+    .signupmain {
+        margin-top: 20px;
+    }
+
+    .signupcontainer {
+        padding: 10px;
+        gap: 15px;
+        width: 350px;
+        height: 530px;
+    }
+
+    .close {
+        padding: 6px;
+        border-radius: 24px;
+
+    }
+
+    .signupicon {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #work {
+        color: #1C1C1E;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #out {
+        color: #1C1C1E;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #withgoogle {
+        width: 50%;
+        padding: 6px 25px;
+    }
+
+    #withapple {
+        width: 50%;
+        padding: 6px 25px;
+    }
+
+    .orsignup hr {
+        width: 68px;
+    }
+
+    .orsignup span {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .signupform p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #mailarea {
+        width: 340px;
+    }
+
+    #signupcontinue {
+        width: 160px;
+    }
+
+    .terms span,
+    .reguestlogin span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .terms {
+        width: 300px;
+    }
+
+    .terms a,
+    .reguestlogin a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .signinmain {
+        width: 350px;
+        height: 550px;
+    }
+
+    .signinheader h2 {
+        width: 250px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .signincontent {
+        padding: 22px;
+    }
+
+
+    .mailzone label,
+    .passwordzone label {
+        font-size: 14px;
+        padding-left: 10px;
+        line-height: 20px;
+    }
+
+    .mailzone input,
+    .passwordzone input {
+        width: 330px;
+        margin-bottom: 20px;
+    }
+
+    .signinform button {
+        margin: 0 auto;
+        width: 320px;
+        padding: 14px;
+        border-radius: 22px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .forgotmain {
+        padding: 40px;
+        width: 350px;
+        height: 370px;
+    }
+
+    .forgotcontent {
+        width: 330px;
+        gap: 36px;
+    }
+
+    .forgotform {
+        width: 330px;
+    }
+
+    .forgotheader {
+        gap: 10px;
+    }
+
+    .forgotheader h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .forgotheader p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #forgotcontinue {
+        width: 330px;
+        padding: 14px;
+        border-radius: 20px;
+    }
+
+    #forgotmailarea {
+        width: 330px;
+        border: none;
+    }
+
+
+
+
 
 }

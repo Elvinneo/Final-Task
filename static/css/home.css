@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: "General Sans";
-    font-style: normal;
-}
-
 #bars,
 #barsblack {
     display: none
@@ -26,7 +17,7 @@
 }
 
 .member {
-    background: var(--Additional-Colors-Background, #F9F9FB);
+    background: #F9F9FB;
 }
 
 nav {
@@ -47,7 +38,7 @@ nav {
 nav #homemenu li,
 #othermenu li {
     opacity: 0.56;
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1rem;
     font-weight: 500;
     line-height: 3%;
@@ -55,7 +46,7 @@ nav #homemenu li,
 }
 
 #othermenu li {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
 }
 
 .drop {
@@ -64,47 +55,86 @@ nav #homemenu li,
     position: relative;
 }
 
-.dropdownMain ,.dropdownMainBlack {
-    width: 110px;
+.dropdownMain,
+.dropdownMainBlack {
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: row;
     display: none;
-    position: absolute;
-    top: 50px;
-    right: -80px;
     backdrop-filter: blur(10px);
-}
-.dropdownMain a:hover{
-    color: #121024;
-    font-weight: 600;
-    font-size: 20px;
-}
-.dropdownMainBlack a:hover{
-    color: #064BB4;
-    font-weight: 600;
-    font-size: 20px;
+
 }
 
-.Show{
+.dropdownMain {
+    color: #064BB4;
+}
+
+.dropdownMainBlack {
+    padding-top: 30px;
+    color: #2d333b;
+    font-family: 400;
+}
+
+.dropprogramsBlack a,
+.dropprograms a {
+    width: 800px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.dropprogramsBlack a {
+    color: #5c5a64;
+}
+
+.dropprograms a {
+    color: #110d25;
+}
+
+.dropprograms,
+.dropprogramsBlack {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.dropprograms {
+    border: 1px solid rgb(50, 36, 243);
+    background-color: #84a4f5;
+}
+
+.dropprogramsBlack {
+    background-color: #d0d5dd;
+    border: 1px solid rgb(114, 113, 133);
+    margin-bottom: 2px;
+}
+
+.dropprograms a:hover {
+    color: rgb(21, 3, 100);
+    text-shadow: 1px 1px #0000ff;
+    font-weight: 600;
+}
+
+.dropprogramsBlack a:hover {
+    font-weight: 500;
+    color: rgb(77, 73, 95);
+    text-shadow: 1px 1px #3a3a4d;
+}
+
+.Show {
     display: block;
 }
 
-.dropdownMain a {
-    width: 100%;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 30px;
-    transition: 100ms;
-}
+
+
 .dropdownMainBlack a {
     width: 100%;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
-    transition: 100ms;
+    transition: 20ms;
 }
 
 .homelogo,
@@ -115,7 +145,7 @@ nav #homemenu li,
 }
 
 .homelogo p {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1.25em;
     font-weight: 400;
     line-height: 1.5em;
@@ -123,7 +153,7 @@ nav #homemenu li,
 }
 
 .otherlogo p {
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
 }
 
 .homeaccount,
@@ -153,7 +183,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    border: 1px solid var(--Additional-Colors-White, #FFF);
+    border: 1px solid#FFF;
 }
 
 #signup {
@@ -164,7 +194,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .container {
@@ -184,7 +214,7 @@ nav #homemenu li,
 }
 
 .left h1 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 3.5rem;
     font-weight: 400;
     line-height: 60px;
@@ -193,7 +223,7 @@ nav #homemenu li,
 
 .left p {
     margin-top: 30px;
-    color: var(--Grayscale-30, #C7C7CC);
+    color: #C7C7CC;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -210,7 +240,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .right {
@@ -263,7 +293,7 @@ nav #homemenu li,
 }
 
 .biceps h6 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4em;
@@ -271,7 +301,7 @@ nav #homemenu li,
 }
 
 .biceps h5 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1.1em;
     font-weight: 600;
     line-height: 26px;
@@ -300,7 +330,7 @@ nav #homemenu li,
 }
 
 .heart h6 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4em;
@@ -308,7 +338,7 @@ nav #homemenu li,
 }
 
 .heart h5 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1.1em;
     font-weight: 600;
     line-height: 26px;
@@ -351,7 +381,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: var(--Additional-Colors-White, #FFF);
+    background: #FFF;
     box-shadow: 64px 64px 80px 0px rgba(8, 23, 45, 0.16);
     z-index: 2;
 }
@@ -366,7 +396,7 @@ nav #homemenu li,
 }
 
 #selection1 {
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .selection img {
@@ -375,7 +405,7 @@ nav #homemenu li,
 }
 
 .selection h3 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 1.25em;
     font-weight: 500;
     line-height: 1.75em;
@@ -383,7 +413,7 @@ nav #homemenu li,
 }
 
 .selection p {
-    color: var(--Grayscale-60, #636366);
+    color: #636366;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -396,7 +426,7 @@ nav #homemenu li,
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .option {
@@ -427,7 +457,7 @@ nav #homemenu li,
 
 .titledescription h3 {
     width: 100%;
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 40px;
     font-weight: 500;
     line-height: 48px;
@@ -436,7 +466,7 @@ nav #homemenu li,
 
 .titledescription p {
     width: 100%;
-    color: var(--Grayscale-20, #D1D1D6);
+    color: #D1D1D6;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -471,7 +501,7 @@ nav #homemenu li,
 }
 
 .promotions {
-    background: var(--Additional-Colors-Background, #F9F9FB);
+    background: (#F9F9FB);
     padding: 120px 0;
     width: 100%;
     display: flex;
@@ -487,7 +517,7 @@ nav #homemenu li,
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     text-align: center;
     font-size: 3em;
     font-weight: 500;
@@ -498,7 +528,7 @@ nav #homemenu li,
 
 .description ul li p,
 .description1 ul li p {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 26px;
@@ -545,19 +575,19 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .membershipzone {
     width: 100%;
     margin-top: 0;
-    background: var(--Additional-Colors-Background, #F9F9FB);
+    background: (#F9F9FB);
 }
 
 .membership {
     width: 100%;
     display: flex;
-    padding: 120px 0 0 ;
+    padding: 120px 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -566,7 +596,7 @@ nav #homemenu li,
 
 .membertitle {
     width: 45%;
-    color: var(--Grayscale-Grayscale-100, #171725);
+    color: #171725;
     text-align: center;
     font-size: 2.5em;
     font-weight: 500;
@@ -578,7 +608,7 @@ nav #homemenu li,
 
 .membertitle p {
     text-align: center;
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
     font-size: 0.80em;
     font-weight: 500;
     line-height: 1.4em;
@@ -588,7 +618,7 @@ nav #homemenu li,
 .membertitle h2 {
     margin-top: 30px;
     width: 100%;
-    color: var(--Grayscale-Grayscale-100, #171725);
+    color: #171725;
     text-align: center;
     font-size: 2rem;
     font-weight: 500;
@@ -613,7 +643,7 @@ nav #homemenu li,
     align-items: flex-start;
     gap: 32px;
     border-radius: 24px;
-    background: var(--Additional-Colors-White, #FFF);
+    background: #FFF;
 }
 
 .types_planes {
@@ -640,7 +670,7 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .plan2 {
@@ -653,8 +683,8 @@ nav #homemenu li,
     gap: 32px;
     border-radius: 24px;
     border: 1px solid rgba(233, 235, 237, 0.16);
-    background: var(--Main-Colors-Secondary, #064BB4);
-    color: var(--Additional-Colors-White, #FFF);
+    background: #064BB4;
+    color: #FFF;
 }
 
 .plan ul li,
@@ -664,7 +694,7 @@ nav #homemenu li,
 }
 
 .plan h4 {
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
     text-align: center;
     font-size: 1.25em;
     font-weight: 500;
@@ -673,7 +703,7 @@ nav #homemenu li,
 }
 
 .plan2 h4 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 1.25em;
     font-weight: 500;
@@ -682,7 +712,7 @@ nav #homemenu li,
 }
 
 .descript p {
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.4em;
@@ -692,7 +722,7 @@ nav #homemenu li,
 .descript h3 {
     width: 100%;
     padding: 20px 30%;
-    color: var(--Grayscale-Grayscale-100, #171725);
+    color: #171725;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500;
@@ -703,7 +733,7 @@ nav #homemenu li,
 .content h6 {
     text-align: left;
     margin: 0 30%;
-    color: var(--Grayscale-40, #AEAEB2);
+    color: #AEAEB2;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4em;
@@ -731,7 +761,7 @@ nav #homemenu li,
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-    background: var(--Additional-Colors-Background, #F9F9FB);
+    background: #F9F9FB;
     gap: 40px;
 }
 
@@ -788,12 +818,12 @@ nav #homemenu li,
 }
 
 
-.activearrow{
+.activearrow {
     font-size: 24px;
 
 }
 
-.passivearrow{
+.passivearrow {
     filter: opacity(0.5);
     font-size: 16px;
 
@@ -803,13 +833,13 @@ nav #homemenu li,
     width: 16px;
     height: 8px;
     border-radius: 8px;
-    background: var(--Main-Colors-Secondary, #064BB4);
+    background: #064BB4;
 }
 
 .ellipse {
     width: 8px;
     height: 8px;
-    background: var(--Additional-Colors-Line, #E9EBED);
+    background: #E9EBED;
 }
 
 .getstarted {
@@ -818,7 +848,7 @@ nav #homemenu li,
     padding: 80px 0;
     justify-content: center;
     align-items: center;
-    background: var(--Main-Colors-Secondary, #064BB4);
+    background: #064BB4;
 }
 
 .start {
@@ -846,7 +876,7 @@ nav #homemenu li,
 
 .desc p {
     margin-top: 30px;
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -861,7 +891,7 @@ nav #homemenu li,
     align-items: center;
     border-radius: 24px;
     border: none;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .mainfooter {
@@ -893,7 +923,7 @@ nav #homemenu li,
 }
 
 .info p {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1.25em;
     font-weight: 600;
     line-height: 1.5em;
@@ -902,7 +932,7 @@ nav #homemenu li,
 
 .infocontent p {
     width: 70%;
-    color: var(--Grayscale-40, #AEAEB2);
+    color: #AEAEB2;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -947,7 +977,7 @@ nav #homemenu li,
     width: 100%;
     height: 0px;
     stroke-width: 1px;
-    stroke: var(--Additional-Colors-Line, #E9EBED);
+    stroke: #E9EBED;
     opacity: 0.16;
 }
 
@@ -965,7 +995,7 @@ nav #homemenu li,
 }
 
 .mail p {
-    color: var(--Grayscale-50, #8E8E93);
+    color: #8E8E93;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.5em;
@@ -990,7 +1020,7 @@ nav #homemenu li,
     align-items: center;
     gap: 8px;
     border-radius: 32px;
-    background: var(--Main-Colors-Primary, #BCFF5E);
+    background: #BCFF5E;
 }
 
 .form form {
@@ -1008,7 +1038,7 @@ nav #homemenu li,
 }
 
 .social p {
-    color: var(--Grayscale-40, #AEAEB2);
+    color: #AEAEB2;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5em;
@@ -1055,4 +1085,432 @@ nav #homemenu li,
 
 .quota img {
     width: 100%;
+}
+
+/*---------------------------------------------Overlays-----------------------------------------------------*/
+/*---------------------------------------------Signup-------------------------------------------------------*/
+.signupcontainer {
+    position: relative;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 500px;
+    height: 590px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.close {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    border-radius: 32px;
+    background: #F9F9FB;
+    box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.10);
+    cursor: pointer;
+}
+
+.signupicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bulk {
+    color: #1C1C1E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+}
+
+#ing {
+    color: #1C1C1E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+}
+
+#work {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+#out {
+    color: #1C1C1E;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+.signupbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#withgoogle {
+    display: flex;
+    width: 200px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid #E9EBED;
+    cursor: pointer;
+}
+
+#withapple {
+    display: flex;
+    width: 200px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: 1px solid #E9EBED;
+    cursor: pointer;
+}
+
+.orsignup {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.orsignup hr {
+    width: 100px;
+    height: 1px;
+    background: #E9EBED;
+}
+
+.orsignup span {
+    color: #8E8E93;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.signupmailform,
+.forgotmailform {
+    width: 100%;
+}
+
+
+.signupmailform p {
+    color: #1C1C1E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+#signupcontinue,
+#forgotcontinue {
+    display: flex;
+    padding: 16px;
+    margin: 20px 0;
+    padding-inline: 170px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: none;
+    background: #BCFF5E;
+    cursor: pointer;
+}
+
+#mailarea,
+#forgotmailarea {
+    display: flex;
+    width: 400px;
+    height: 52px;
+    padding-left: 16px;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid #E9EBED;
+    background: #FFF;
+}
+
+.terms span,
+.reguestlogin span {
+    color: #AEAEB2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.terms a,
+.reguestlogin a {
+    color: #064BB4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------------------------------Signin-------------------------------------------------------*/
+
+.signinmain {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 550px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.signinicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signinheader h2 {
+    width: 300px;
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.16px;
+}
+
+.signincontent {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.mailzone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+
+}
+
+.passwordzone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+}
+
+.mailzone label,
+.passwordzone label {
+    color: #1C1C1E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.mailzone input,
+.passwordzone input {
+    display: flex;
+    height: 52px;
+    width: 450px;
+    padding-left: 16px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 1px solid #E9EBED;
+    background: #FFF;
+}
+
+.signinform button {
+    display: flex;
+    margin-top: 10px;
+    width: 450px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #BCFF5E;
+    color: #1C1C1E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    border: none;
+}
+
+.forgotpassword {
+    color: #064BB4;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.08px;
+}
+
+.forgotpassword h2 {
+    color: #064BB4;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.eye {
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------------------------------------------forgotPassword-------------------------------------------------------*/
+
+.forgotmain,
+.forgotVerify {
+    display: flex;
+    position: relative;
+    padding: 48px;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.forgotcontent {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.forgotheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.forgotheader h2 {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.16px;
+}
+
+.forgotheader p {
+    color: #7D7C84;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.08px;
+}
+
+#forgotnext {
+    display: flex;
+    width: 400px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: none;
+    background: #BCFF5E;
+}
+
+.forgotVerifyContent {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.forgotVerifyheader h2 {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.16px;
+}
+
+.forgotVerifyheader p {
+    color: #7D7C84;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    width: 330px;
+}
+
+.verifypass {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.characterverify {
+    width: 56px;
+    height: 56px;
 }

@@ -27,21 +27,190 @@
                 </div>
                 <div class="homeaccount">
                     <i><img src="/static/media/Buy.svg" alt=""></i>
-                    <button id="login" type="submit" onclick="location.href='{% url ###### % }'">Login</button>
-                    <button id="signup" type="submit" onclick="location.href='{% url ###### % }'">Signup</button>
-                </div>
-                <div class="drop">
-                    <i id='bars' class="fa-solid fa-bars"></i>
-                    <div id="dropmenu" class="dropdownMain">
-                        <a href="#" id="home">Home</a>
-                        <a href="#" id="programs">Programs</a>
-                        <a href="#" id="trainers">Trainers</a>
-                        <a href="#" id="membership">Membership</a>
-                        <a href="#" id="contact">Contact</a>
+                    <button id="login" type="submit">Login</button>
+                    <button id="signup" type="submit">Signup</button>
+                    <div class="drop">
+                        <i id='bars' class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </nav>
+            <div class="drop">
+                <div id="dropmenu" class="dropdownMain">
+                    <div class="dropprograms">
+                        <a href="#" id="home">Home</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="programs">Programs</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="trainers">Trainers</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="membership">Membership</a>
+                    </div>
+                    <div class="dropprograms">
+                        <a href="#" id="contact">contact</a>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------------------overlays---------------------------------------------->
+
+            <div id="signupOverlay" class="overlay">
+                <div class="signupmain">
+                    <div class="signupcontainer">
+                        <div class="close"><img src="/static/media/close.svg" alt=""></div>
+                        <div class="signupicon">
+                            <i><img src="/static/media/heartblack.png" alt=""></i>
+                            <span id="bulk">Bulk</span>
+                            <span id="ing">ing</span>
+                        </div>
+                        <div class="signupheader">
+                            <span id="work">Welcome to Work</span>
+                            <span id="out">out</span>
+                        </div>
+                        <div class="signupbuttons">
+                            <button id="withgoogle"><img src="/static/media/google.svg" alt=""><span>Continue with
+                                    Google</span></button>
+                            <button id="withapple"><img src="/static/media/apple.svg" alt=""><span>Continue with
+                                    Apple</span></button>
+                        </div>
+                        <div class="orsignup">
+                            <hr><span>Or Sign Up with</span>
+                            <hr>
+                        </div>
+                        <div class="signupform">
+                            <p>Email</p>
+                            <form id="signupmailform" action="">
+                                <input type="text" id="mailarea" placeholder="Enter your email">
+                                <button id='signupcontinue' type="submit">Continue</button>
+                            </form>
+                        </div>
+                        <div class="terms">
+                            <span>I agree to Claraa</span>
+                            <a href="#">Terms of Use</a>
+                            <span>and</span>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="reguestlogin">
+                            <span>Already have an account?</span>
+                            <a href="#" id="signuplogin">Log In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="signinOverlay" class="overlay">
+                <div class="signinmain">
+                    <div class="close"><img src="/static/media/close.svg" alt=""></div>
+                    <div class="signinicon">
+                        <i><img src="/static/media/heartblack.png" alt=""></i>
+                        <span id="bulk">Bulk</span>
+                        <span id="ing">ing</span>
+                    </div>
+                    <div class="signincontent">
+                        <div class="signinheader">
+                            <h2>Hey there, welome back!</h2>
+                        </div>
+                        <div class="signinform">
+                            <form action="" class="signinform">
+                                <div class="mailzone">
+                                    <label for="email" id="">Email</label>
+                                    <input type="text" placeholder="Enter your mail" name="mail">
+                                </div>
+                                <div class="passwordzone">
+                                    <div class="eye">
+                                        <img id="eye" src="/static/media/eye-slash.svg" alt="">
+                                    </div>
+                                    <label for="password">Password</label>
+                                    <input id="pass" type="password" placeholder="Enter your password" name="password">
+                                </div>
+                                <button>Login</button>
+                            </form>
+                        </div>
+                        <div class="forgotpassword">
+                            <h2 id="forgotpassword">Forgot Password?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="forgotOverlay" class="overlay">
+                <div class="forgotmain">
+                    <div class="close"><img src="/static/media/close.svg" alt=""></div>
+                    <div class="signinicon">
+                        <i><img src="/static/media/heartblack.png" alt=""></i>
+                        <span id="bulk">Bulk</span>
+                        <span id="ing">ing</span>
+                    </div>
+                    <div class="forgotcontent">
+                        <div class="forgotheader">
+                            <h2>Reset Password</h2>
+                            <p>Recover your account password</p>
+                        </div>
+                        <div class="forgotform">
+                            <form id="forgotmailform" action="">
+                                <label for="mailarea">Email</label>
+                                <input type="text" id="forgotmailarea" name="mailarea" placeholder="Enter your email">
+                            </form>
+                            <button id='forgotnext' type="submit">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="forgotVerifyOverlay" class="overlay">
+                <div class="forgotVerify">
+                    <div class="close"><img src="/static/media/close.svg" alt=""></div>
+                    <div class="signinicon">
+                        <i><img src="/static/media/heartblack.png" alt=""></i>
+                        <span id="bulk">Bulk</span>
+                        <span id="ing">ing</span>
+                    </div>
+                    <div class="forgotVerifycontent">
+                        <div class="forgotVerifyheader">
+                            <h2>Enter your verification code</h2>
+                            <p>We texted your code to tranm••••••••••••@gm•••.com</p>
+                        </div>
+                        <div class="forgotVerifyform">
+                            <form id="forgotVerifypasswordform" action="">
+                                <div class="verifypass">
+                                    <div class="characterverify"></div>
+                                    <div class="characterverify"></div>
+                                    <div class="characterverify"></div>
+                                    <div class="characterverify"></div>
+                                    <div class="characterverify"></div>
+                                    <div class="characterverify"></div>
+                                </div>
+                                <button id='forgotVerifyNext' type="submit">Next</button>
+                                <p id="resend">Resend</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
         </div>
+        <!---------------------------------------------------overlays---------------------------------------------->
         <div class="container">
             <div id="head" class="head">
                 <div class="left">

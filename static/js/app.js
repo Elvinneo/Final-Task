@@ -11,7 +11,7 @@ if (menu){
 function openMenu(){
     dropmenu.classList.toggle("Show")
     if (test) {
-        nav.style.padding = "15px 0px 150px"
+        nav.style.padding = "15px 0px"
         test=false;
     }else{
         nav.style.padding = "15px 0px 70px"
@@ -20,13 +20,7 @@ function openMenu(){
 
 }
 
-
 let articleoptions=document.getElementById("articleoptions")
-
-if (articleoptions){
-    articleoptions.addEventListener('click',addClass)
-}
-
 
 function addClass(e){
     for(i=0;i<=7;i++){
@@ -36,7 +30,6 @@ function addClass(e){
     }
     e.preventDefault()
     e.target.classList.add("active")
-
 }
 
 
@@ -49,7 +42,6 @@ function resize(){
 
 }
 
-
 /* ---------------------------------------Happy clients-----------------------------------------------------*/
 
 let arrows= document.getElementById("arrows")
@@ -58,6 +50,7 @@ let arrowright= document.getElementById("arrowright").lastElementChild
 
 let happyClientsCount=6
 let startcount=1
+
 
 if(arrows){
     arrowleft.addEventListener("click",less)
@@ -113,3 +106,100 @@ function more(){
         pagecontrol()
     }
 }
+/*-----------------------------------------------Overlays--Signup----------------------------------------------------*/
+
+let overlays=document.querySelectorAll(".overlay")
+let closeoverlays=document.querySelectorAll(".close")
+let signupbutton=document.getElementById("signup")
+
+let signupOverlay=document.getElementById("signupOverlay")
+let signuplogin = document.getElementById("signuplogin")
+
+if (signuplogin){
+    signuplogin.addEventListener("click",signin)
+}
+
+if (signupbutton){
+    signupbutton.addEventListener("click",signup)
+}
+
+function signup(){
+    closewindow()
+    signupOverlay.style.display = 'flex';
+}
+
+
+if (closeoverlays){
+    closeoverlays.forEach(closeoverlay =>
+        {closeoverlay.addEventListener('click',closewindow)}
+    );
+}
+
+function closewindow(){
+    overlays.forEach(overlay =>
+        {overlay.style.display="none"}
+    );
+}
+
+/*-----------------------------------------------Overlays--Signin----------------------------------------------------*/
+let signinOverlay=document.getElementById("signinOverlay")
+let signinbutton=document.getElementById("login")
+let eye=document.getElementById("eye")
+let pass=document.getElementById("pass")
+
+
+if (eye){
+    eye.addEventListener("mousedown",textviewer)
+    eye.addEventListener("mouseup",passwordviewer)
+}
+
+if (signinbutton){
+    signinbutton.addEventListener("click",signin)
+}
+
+
+function signin(){
+    closewindow()
+    signinOverlay.style.display = 'flex';
+}
+
+function textviewer(){
+    pass.type='text'
+}
+function passwordviewer(){
+    pass.type='password'
+}
+
+
+/*-----------------------------------------------Overlays Forgot password----------------------------------------------------*/
+
+let forgotoverlay=document.getElementById("forgotOverlay")
+let forgot = document.getElementById("forgotpassword")
+
+if(forgot){
+    forgot.addEventListener('click',iforgotpassword)
+}
+
+function iforgotpassword(){
+    closewindow()
+    forgotoverlay.style.display = 'flex';
+
+}
+
+/*-----------------------------------------------Overlays Forgot Verify--------------------------------------------*/
+
+let forgotVerify=document.getElementById("forgotVerifyOverlay")
+let next = document.getElementById("forgotnext")
+
+if(next){
+    next.addEventListener('click',forgotnext)
+}
+
+function forgotnext(){
+    closewindow()
+    forgotVerify.style.display = 'flex';
+}
+
+    
+
+

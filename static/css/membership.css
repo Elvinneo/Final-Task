@@ -53,21 +53,19 @@
 
 .overviewcontent p,
 .overviewinfo p {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
 }
 
 .overview>p {
     margin: 5% 1%;
     width: 100%;
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
 }
 
 .overview>p,
 .overviewcontent p,
 .overviewinfo p {
-    font-family: "General Sans";
     font-size: 1.125rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.8rem;
     letter-spacing: 0.09px;

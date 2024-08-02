@@ -1,7 +1,6 @@
-
 .membershipdetail {
     margin: 4% auto;
-    background: var(--Additional-Colors-Background, #F9F9FB);
+    background: #F9F9FB;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -26,9 +25,8 @@
 }
 
 .contentheader h1 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 4.5rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 5rem;
     letter-spacing: 0.36px;
@@ -36,9 +34,8 @@
 
 .contentheader p {
     width: 80%;
-    color: var(--Grayscale-60, #636366);
+    color: #636366;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0.08px;
@@ -68,18 +65,16 @@
 }
 
 #descriptionnumber {
-    color: var(--Grayscale-40, #AEAEB2);
+    color: #AEAEB2;
     font-size: 1.1250rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.1250rem;
     letter-spacing: 0.07px;
 }
 
 #descriptioninfo {
-    color: var(--Main-Colors-Secondary, #064BB4);
+    color: #064BB4;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.09px;
@@ -97,9 +92,8 @@
 
 .baseabout h3,
 .contentinfo h3 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.12px;
@@ -107,9 +101,8 @@
 
 .baseabout p,
 .contentinfo p {
-    color: var(--Grayscale-60, #636366);
+    color: #636366;
     font-size: 1.1250rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.09px;
@@ -137,21 +130,19 @@
 }
 
 .reserveheader h3 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0.09px;
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     letter-spacing: 0.09px;
 }
 
 .reserveheader p {
     width: 75%;
-    color: var(--Grayscale-60, #636366);
+    color: #636366;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -167,9 +158,8 @@
 }
 
 .reserveincludes h4 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -196,9 +186,8 @@
 }
 
 .reserveincludes ul li p {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -213,9 +202,8 @@
 }
 
 .reserveduration h2 {
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.07px;
@@ -229,14 +217,13 @@
     align-items: center;
     align-self: stretch;
     border-radius: 24px;
-    border: 1px solid var(--Additional-Colors-Line, #E9EBED);
-    background: var(--Additional-Colors-White, #FFF);
+    border: 1px solid #E9EBED;
+    background: #FFF;
 }
 
 .reserveduration select option {
-    color: var(--Grayscale-40, #AEAEB2);
+    color: #AEAEB2;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.08px;
@@ -247,27 +234,27 @@
 }
 
 .reserveprice span {
-    color: var(--Grayscale-900, #09080D);
+    color: #09080D;
     font-size: 40px;
-    font-style: normal;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.2px;
 }
 
 #month {
-    color: var(--Grayscale-50, #8E8E93);
+    color: #8E8E93;
     font-family: "General Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.07px;
 }
-.reservebuttons{
+
+.reservebuttons {
     width: 100%;
 }
-.reservebuttons  button {
+
+.reservebuttons button {
     width: 100%;
     display: flex;
     padding: 16px;
@@ -275,11 +262,10 @@
     align-items: center;
     border-radius: 24px;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.08px;
-    color: var(--Grayscale-100, #1C1C1E);
+    color: #1C1C1E;
 }
 
 

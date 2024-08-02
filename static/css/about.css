@@ -16,7 +16,7 @@
 }
 
 .aboutmainleft button {
-    color: var(--Main-Colors-Primary, #BCFF5E);;
+    color: #BCFF5E;
     font-size: 0.875rem;
     font-weight: 500;
     line-height: 22px;
@@ -26,13 +26,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    border: 1px solid var(--Main-Colors-Primary, #BCFF5E);
-    background: var(--Main-Colors-Secondary, #064BB4);
+    border: 1px solid #BCFF5E;
+    background: #064BB4;
     margin: 5% 0;
 }
 
 .aboutmainleft h2 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 4rem;
     font-weight: 400;
     line-height: 80px;
@@ -51,7 +51,7 @@
 }
 
 .aboutmainright h3 {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
@@ -59,7 +59,7 @@
 }
 
 .aboutmainright p {
-    color: var(--Grayscale-20, #D1D1D6);
+    color: #D1D1D6;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 26px;
@@ -69,20 +69,20 @@
 .aboutrelative {
     width: 100%;
     position: relative;
-
 }
-.relimage{
+
+.relimage {
     width: 60%;
     margin: 0 auto;
-  
 }
-.relimage img{
+
+.relimage img {
     width: 100%;
 }
+
 .aboutrelativediv {
     display: flex;
     padding: 20px;
-    align-items: flex-start;
     gap: 8px;
     border-radius: 16px;
     background: linear-gradient(76deg, rgba(255, 255, 255, 0.24) 3.01%, rgba(255, 255, 255, 0.00) 112.22%);
@@ -106,7 +106,7 @@
 }
 
 .value {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
@@ -114,7 +114,7 @@
 }
 
 .text {
-    color: var(--Additional-Colors-White, #FFF);
+    color: #FFF;
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 22px;
@@ -152,7 +152,7 @@
     gap: 56px;
     margin: 5% 0;
 
-} 
+}
 
 .pageheader {
     width: 100%;
@@ -171,14 +171,15 @@
 }
 
 .pageheader p {
-    color: var(--Grayscale-60, #636366);
+    color: #636366;
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.08px;
 }
-.aboutpagebody{
+
+.aboutpagebody {
     margin-top: 2%;
 }
 
@@ -187,36 +188,38 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-
 }
 
-.aboutpagebodyrowleft ,.responsivetext{
+.aboutpagebodyrowleft,
+.responsivetext {
     display: flex;
-    padding: 40px ;
+    padding: 40px;
     width: 40%;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
     border-radius: 20px;
-    background: var(--Additional-Colors-White, #FFF);
+    background:#FFF;
 }
 
-.aboutpagebodyrowleft i ,.responsivetext i{
+.aboutpagebodyrowleft i,
+.responsivetext i {
     width: 48px;
     height: 48px;
 }
 
-.aboutpagebodyrowleft h3,.responsivetext h3{
-    color: var(--Grayscale-100, #1C1C1E);
+.aboutpagebodyrowleft h3,
+.responsivetext h3 {
+    color: #1C1C1E;
     font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.16px;
 }
 
-.aboutpagebodyrowleft p ,.responsivetext p{
-    color: var(--Grayscale-100, #1C1C1E);
+.aboutpagebodyrowleft p,
+.responsivetext p {
+    color:#1C1C1E;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 26px;
@@ -231,7 +234,7 @@
     width: 100%;
 }
 
-.responsivetext{
+.responsivetext {
     display: none;
 
 }

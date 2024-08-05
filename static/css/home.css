@@ -501,7 +501,7 @@ nav #homemenu li,
 }
 
 .promotions {
-    background: (#F9F9FB);
+    background: #F9F9FB;
     padding: 120px 0;
     width: 100%;
     display: flex;
@@ -581,7 +581,7 @@ nav #homemenu li,
 .membershipzone {
     width: 100%;
     margin-top: 0;
-    background: (#F9F9FB);
+    background: #F9F9FB;
 }
 
 .membership {
@@ -1302,7 +1302,6 @@ nav #homemenu li,
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .signinheader h2 {
@@ -1316,7 +1315,7 @@ nav #homemenu li,
 }
 
 .signincontent {
-    display: inline-flex;
+    display:flex;
     padding: 24px;
     flex-direction: column;
     justify-content: center;
@@ -1472,6 +1471,8 @@ nav #homemenu li,
     background: #BCFF5E;
 }
 
+/*---------------------------------------------forgotVerify-------------------------------------------------------*/
+
 .forgotVerifyContent {
     display: flex;
     padding: 48px;
@@ -1485,6 +1486,7 @@ nav #homemenu li,
 }
 
 .forgotVerifyheader h2 {
+    padding-bottom: 25px;
     color: #1C1C1E;
     text-align: center;
     font-size: 28px;
@@ -1494,23 +1496,178 @@ nav #homemenu li,
 }
 
 .forgotVerifyheader p {
+    padding-bottom: 25px;
     color: #7D7C84;
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0.08px;
-    width: 330px;
+    width: 500px;
+    text-align: center;
 }
 
 .verifypass {
+    padding-bottom: 25px;
     display: flex;
     align-items: flex-start;
-    gap: 24px;
+    gap: 18px;
+    width: 420px;
+    margin: 0 auto;
+
 }
 
-.characterverify {
+.characterverify input {
     width: 56px;
     height: 56px;
+    border-radius: 20px;
+    border: 1px solid #E9EBED;
+    background: #FFF;
+    color: #1C1C1E;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+#forgotVerifyNext {
+    display: flex;
+    width: 450px;
+    margin: auto;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #BCFF5E;
+    border: none
+}
+
+.resendbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.resendbutton a {
+    display: flex;
+    width: 500px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    color: #064BB4;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-decoration: none;
+}
+
+/*---------------------------------------------change-Password-------------------------------------------------------*/
+
+#forgotVerify {
+    position: relative;
+}
+
+
+#passeye {
+    position: absolute;
+    top: 195px;
+    right: 50px;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+#newpasseye {
+    position: absolute;
+    top: 285px;
+    right: 50px;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+#NewPasswordNext {
+    width: 100%;
+    padding: 16px;
+    border-radius: 24px;
+    background: #BCFF5E;
+    border: none;
+    margin: 10px auto;
+
+}
+
+.newpasswordheader h2 {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+.successcontent {
+    position: relative;
+    width: 280px;
+    display: flex;
+    padding: 48px 56px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    border-radius: 24px;
+    background: #F9F9FB;
+}
+.successheader{
+    padding-bottom: 30px;
+}
+.successheader h2 {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
+
+.successheader p {
+    color: #636366;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 188px;
+    letter-spacing: 0.08px;
+}
+
+.successImage {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.successImage img {
+    width: 100%;
+}
+
+#successContinue {
+    margin: 0 auto;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid  #1C1C1E;
 }

@@ -987,10 +987,13 @@
     }
 
 
-    .forgotmain {
+    .forgotmain,
+    .forgotVerify {
         padding: 40px;
         width: 350px;
-        height: 370px;
+        height: 400px;
+        gap: 24px;
+
     }
 
     .forgotcontent {
@@ -1027,7 +1030,69 @@
         border: none;
     }
 
+    #forgotnext {
+        display: flex;
+        width: 320px;
 
+    }
+    #forgotVerifyNext {
+        display: flex;
+        width: 320px;
+        margin: auto;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        background: #BCFF5E;
+        border: none
+    }
+    .verifypass {
+        gap: 5px;
+        width: 270px;
+    }
+    .characterverify input {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .forgotVerifyheader h2 {
+        padding-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+    
+    .forgotVerifyheader p {
+        padding-bottom: 20px;
+        font-size: 12px;
+
+    }
+
+    #passeye {
+        top: 170px;
+        right: 30px;
+
+    }
+
+    #newpasseye {
+        top: 280px;
+        right: 30px;
+
+    }
+
+    #NewPasswordNext {
+        margin-bottom: 15px;
+
+    }
+
+    .forgotVerifyheader h2{
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
 
 
 

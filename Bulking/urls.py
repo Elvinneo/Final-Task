@@ -10,4 +10,5 @@ urlpatterns = [
     path('membership_detail/' , membership_detail_view,name="membership_detail"),
     path('blog/' , blog_view,name="blog"),
     path('blog_detail/' , blogdetail_view,name="blogdetail"),
+    path('overlays/' , overlays_view,name="overlays"),
 ]

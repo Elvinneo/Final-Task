@@ -35,18 +35,20 @@ nav {
     gap: 40px;
 }
 
-nav #homemenu li,
-#othermenu li {
-    opacity: 0.56;
+nav #homemenu li a,
+#othermenu li a {
+    opacity: 0.7;
     color: #FFF;
     font-size: 1rem;
     font-weight: 500;
     line-height: 3%;
     letter-spacing: 0.08px;
+    text-decoration: none;
 }
 
-#othermenu li {
-    color: #1C1C1E;
+#othermenu li a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .drop {
@@ -1315,7 +1317,7 @@ nav #homemenu li,
 }
 
 .signincontent {
-    display:flex;
+    display: flex;
     padding: 24px;
     flex-direction: column;
     justify-content: center;
@@ -1626,9 +1628,11 @@ nav #homemenu li,
     border-radius: 24px;
     background: #F9F9FB;
 }
-.successheader{
+
+.successheader {
     padding-bottom: 30px;
 }
+
 .successheader h2 {
     color: #1C1C1E;
     text-align: center;
@@ -1669,5 +1673,172 @@ nav #homemenu li,
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    border: 1px solid  #1C1C1E;
+    border: 1px solid #1C1C1E;
+}
+
+/*---------------------------------------------Security-------------------------------------------------------*/
+
+.security {
+    position: relative;
+    width: 500px;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.securityheader {
+
+    width: 80%;
+}
+
+.securitycontent {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.securityform {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.securitypass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#securityContinue {
+    margin-top: 20px;
+    display: flex;
+    width: 450px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #BCFF5E;
+    border: none;
+    cursor: pointer;
+}
+
+.securityheader h2 {
+    color: #1C1C1E;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+.securityheader p {
+    color: #7D7C84;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+/*---------------------------------------------Confirm-------------------------------------------------------*/
+.confirm {
+    position: relative;
+    width: 450px;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.08);
+}
+
+.confirmContent {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.confirmheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.confirmheader h2 {
+    width: 350px;
+    color: var#1C1C1E;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.16px;
+}
+
+.confirmheader p {
+    width: 352px;
+    color: #7D7C84;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.confirmzone {
+    margin-left: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+
+.confirmzone label {
+    margin-left: 30px;
+    color: #8E8E93;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.09px;
+}
+
+.confirmzone input {
+    width: 24px;
+    height: 24px;
+}
+
+#confirmContinue {
+    margin-top: 40px;
+    display: flex;
+    width: 400px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #BCFF5E;
+    color: var(--Grayscale-100, #1C1C1E);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    border: none;
 }

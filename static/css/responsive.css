@@ -236,7 +236,6 @@
 
     .head {
         width: 100%;
-        margin-top: 5vh;
         display: flex;
     }
 
@@ -526,7 +525,6 @@
     .submit {
         width: 100%;
         align-items: flex-start;
-
     }
 
     .submit button {
@@ -761,7 +759,6 @@
         padding: 8px 35px;
     }
 
-
     /*---------------------------------------- About.CSS-----------------------------------------------------*/
 
     .aboutrelative {
@@ -862,8 +859,8 @@
         margin-left: 100px;
     }
 
-
     /*---------------------------------------- Overlays.CSS-----------------------------------------------------*/
+
     .signupmain {
         margin-top: 20px;
     }
@@ -963,7 +960,6 @@
         padding: 22px;
     }
 
-
     .mailzone label,
     .passwordzone label {
         font-size: 14px;
@@ -986,14 +982,12 @@
         line-height: 22px;
     }
 
-
     .forgotmain,
     .forgotVerify {
         padding: 40px;
         width: 350px;
         height: 400px;
         gap: 24px;
-
     }
 
     .forgotcontent {
@@ -1033,8 +1027,8 @@
     #forgotnext {
         display: flex;
         width: 320px;
-
     }
+
     #forgotVerifyNext {
         display: flex;
         width: 320px;
@@ -1046,10 +1040,12 @@
         background: #BCFF5E;
         border: none
     }
+
     .verifypass {
         gap: 5px;
         width: 270px;
     }
+
     .characterverify input {
         width: 45px;
         height: 45px;
@@ -1057,43 +1053,141 @@
         margin: 0 auto;
         padding: 0;
     }
-    
+
     .forgotVerifyheader h2 {
         padding-bottom: 20px;
         font-size: 24px;
         line-height: 30px;
-
     }
-    
+
     .forgotVerifyheader p {
         padding-bottom: 20px;
         font-size: 12px;
-
     }
 
     #passeye {
-        top: 170px;
+        top: 155px;
         right: 30px;
-
     }
 
     #newpasseye {
-        top: 280px;
+        top: 265px;
         right: 30px;
-
     }
 
     #NewPasswordNext {
         margin-bottom: 15px;
-
     }
 
-    .forgotVerifyheader h2{
+    .forgotVerifyheader h2 {
         font-size: 24px;
         margin: 0;
         padding: 0;
     }
 
 
+    .security {
+        width: 320px;
+        padding: 30px;
+        gap: 26px;
+        border-radius: 18px;
+
+    }
+
+    .securitycontent {
+        display: flex;
+        width: 270px;
+        gap: 20px;
+    }
+
+    .securityform {
+        width: 270px;
+    }
+
+    .securitypass {
+        gap: 25px;
+    }
+
+    .characterverify {
+        width: 25px;
+        height: 25px;
+    }
+
+    #securityContinue {
+        margin: 40px auto 0;
+        width: 250px;
+        padding: 16px;
+        border-radius: 16px;
+
+    }
+
+    .securityheader h2 {
+        font-size: 18px;
+        font-weight: 300px;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+    }
+
+    .securityheader p {
+        width: 100%;
+    }
+    .confirm {
+        width: 350px;
+        padding: 42px;
+        gap: 20px;
+        border-radius: 18px;
+
+    }
+    
+    .confirmContent {
+        width: 300px;
+        gap: 42px;
+    }
+    
+    .confirmheader {
+        gap: 10px;
+    }
+    
+    .confirmheader h2 {
+        width: 280px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .confirmheader p {
+        width: 300px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .confirmzone {
+        margin-left: 20px;
+        width: 280px;
+        gap: 28px;
+    }
+    
+    
+    .confirmzone label {
+        margin-left: 30px;
+        color: #8E8E93;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.09px;
+    }
+    
+    .confirmzone input {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #confirmContinue {
+        margin-top: 30px;
+        width: 300px;
+        padding: 12px;
+        border-radius: 18px;
+        font-size: 14px;
+        line-height: 20px;
+    }
 
 }
